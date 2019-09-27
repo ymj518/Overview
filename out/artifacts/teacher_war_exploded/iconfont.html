@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>icont图标测试页面</title>
+    <style type="text/css">
+        @font-face {
+            font-family: 'iconfont';  /* project id 1432360 */
+            src: url('//at.alicdn.com/t/font_1432360_z91xsv1iop.eot');
+            src: url('//at.alicdn.com/t/font_1432360_z91xsv1iop.eot?#iefix') format('embedded-opentype'),
+            url('//at.alicdn.com/t/font_1432360_z91xsv1iop.woff2') format('woff2'),
+            url('//at.alicdn.com/t/font_1432360_z91xsv1iop.woff') format('woff'),
+            url('//at.alicdn.com/t/font_1432360_z91xsv1iop.ttf') format('truetype'),
+            url('//at.alicdn.com/t/font_1432360_z91xsv1iop.svg#iconfont') format('svg');
+        }
+        .iconfont {
+            font-family: "iconfont" !important;
+            font-size: 28px;
+            font-style: normal;
+            -webkit-font-smoothing: antialiased;
+            -webkit-text-stroke-width: 0.2px;
+            -moz-osx-font-smoothing: grayscale;
+        }
+        /*圆矩形按钮的基础样式*/
+        .round-btn {
+            width: 110px;
+            height: 40px;
+            border-radius: 20px;
+            font-size: 16px;
+            outline: none;
+            border: none;
+        }
+        .round-btn i {
+            margin-left: -8px;
+        }
+        .btn-title {
+            position: relative;
+            top: -6px;
+        }
+        /*圆形按钮基础样式*/
+        .circle-btn {
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            /*阴影效果*/
+            box-shadow: 2px 5px 10px #aaa;
+            border: none;
+            outline: none;
+        }
+        /*各种颜色主题*/
+        .pink-theme {
+            background-color: rgb(238, 110, 115);
+            color: #eee;
+        }
+        .cyan-theme {
+            background-color: rgb(38, 166, 154);
+            color: #ddd;
+        }
+        .orange-theme {
+            background-color: rgb(255, 152, 0);
+            color: #fff;
+        }
+        .purple-theme {
+            background-color: rgb(156, 39, 176);
+            color: #fff;
+        }
+        .light-grey-theme{
+            background-color: #9b9b9b;
+            color: #333;
+        }
+        /*空心带边框的“按钮”（其实是超链接）基础样式*/
+        .normal-btn {
+            /*去掉超链接的下划线*/
+            text-decoration: none;
+            width: 150px;
+            height: 70px;
+            padding: 5px 8px 5px 8px;
+            border: 1px solid rgb(38, 166, 154);
+            color: rgb(38, 166, 154);
+            font-size: 16px;
+            border-radius: 20px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+<i class="iconfont" style="color: rgb(81, 195, 50);">&#xe600;</i>
+<br>
+<button type="button" class="round-btn pink-theme">
+    <i class="iconfont" style="color: #fff;">&#xe601;</i>
+    <span class="btn-title">写文章</span>
+</button>
+
+<button type="button" class="round-btn cyan-theme">
+    <i class="iconfont" style="color: #fff;">&#xe601;</i>
+    <span class="btn-title">写文章</span>
+</button>
+
+<button type="button" class="round-btn purple-theme">
+    <i class="iconfont" style="color: #fff;">&#xe601;</i>
+    <span class="btn-title">写文章</span>
+</button>
+
+<button type="button" class="round-btn orange-theme">
+    <i class="iconfont" style="color: #fff;">&#xe601;</i>
+    <span class="btn-title">写文章</span>
+</button>
+<button type="button" class="round-btn light-grey-theme">
+    <i class="iconfont" style="color: #fff;">&#xe601;</i>
+    <span class="btn-title">写文章</span>
+</button>
+
+<button class="circle-btn cyan-theme">
+    <i class="iconfont" style="color: #fff;">&#xe659;</i>
+</button>
+
+<button class="circle-btn pink-theme">
+    <i class="iconfont" style="color: #fff;">&#xe659;</i>
+</button>
+
+<button class="circle-btn purple-theme">
+    <i class="iconfont" style="color: #fff;">&#xe659;</i>
+</button>
+
+<button class="circle-btn orange-theme">
+    <i class="iconfont" style="color: #fff;">&#xe659;</i>
+</button>
+
+<br>
+<a href="#" class="normal-btn">
+    <i class="iconfont" style="color: rgb(38, 166, 154);font-size: 16px;">&#xe659;</i>
+    加好友
+</a>
+</body>
+</html>
